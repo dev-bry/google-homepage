@@ -92,3 +92,50 @@ body {
     color: #70757a;
     font-size: 0.88rem;
 }
+
+.img-container { 
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.google-logo {
+    margin-bottom: 3rem
+}
+
+.search-master {
+    display: block;
+    border: 1px solid lightgray;
+    width: 38rem;
+    height: 2.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35px;
+}
+
+.search-container {
+    text-align: center;
+}
+
+.search-icon {
+    display: inline;
+    background-color: transparent;
+    color: lightgray;
+}
+
+.reset-button {
+    display: block;
+    border: none;
+    background-color: transparent;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.search {
+    border: none;
+    outline: none;
+    width: 35rem;
+    height: 2.8rem;
+    background-color: transparent;
+}

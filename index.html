@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="reset.css" media="all"/>
     <link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+    <script src="https://kit.fontawesome.com/67a5cd2517.js" crossorigin="anonymous"></script>
     <title>Google</title>
 </head>
 
@@ -36,13 +37,47 @@
 
 <body>
     
-    <img src="google-logo.jpg" alt="Google Logo" class="google-logo"/>
+
+        <div class="img-container">
+
+            <img src="google-logo.jpg" alt="Google Logo" class="google-logo"/>
     
-    <input type="search" class="search"/>
+        </div>
 
-    <button class="search-button">Google Search</button>
+    <form class="search-master">
 
-    <button class="search-button">I'm Feeling Lucky</button>
+        <div class="search-container">
+
+        <div class="search-icon">
+        
+            <i class="fas fa-search"></i>
+        
+        </div>
+
+            <input type="search" class="search"/>
+            <div class="reset-icon">
+
+                <button type="reset" class="reset-button">
+                    <i class="fas fa-times"></i>
+                </button>
+    
+            </div>
+        </div>
+
+        
+    
+
+    <br>
+
+    <div class="button-container">
+
+    <button class="search-button" type="submit">Google Search</button>
+
+    <button class="search-button" type="submit">I'm Feeling Lucky</button>
+
+    </div>
+
+</form>
 
     <div class="footer">
         <div class="footer-country"><p>Canada</p></div>
