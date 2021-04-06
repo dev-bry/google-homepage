@@ -1,3 +1,6 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .navbar-left, .navbar-right {
     padding: 1.5rem;
@@ -17,39 +20,62 @@
     right: 0;
 }
 
+.topnav li {
+    display: inline;
+    font-size: 00.88rem;
+    padding-right: 1rem;
+}
+
 .botnav {
     margin-bottom: 0;
 }
 
-.footer-nav-left {
+.footer {
     display: inline-block;
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 100%;
+}
+
+.footer-nav-left {
+    display: inline-block;
     width: 50%;
 }
 
 .footer-nav-right {
-    display: block;
+    display: inline-block;
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 1rem;
     width: 50%;
     text-align: right;
 }
 
-.footer {
-    background-color: lightgrey; 
+.footer-nav-right ul {
+    padding-right: 1rem;
+}
+
+.footer-country {
+    padding: 1rem;
+    border-bottom: 1px solid rgb(202, 199, 199);
+    background-color: #f2f2f2;
+    color: #70757a;
+}
+
+.footer-country p {
+    padding-left: 1rem;
+    font-size: 0.9rem;
 }
 
 .botnav .footer-nav-left, .footer-nav-right {
-   background-color: lightgray; 
+   background-color: #f2f2f2; 
 }
 
-li {
+.botnav li {
     display: inline;
-    padding-left: 1rem;
+    padding-left: 1.2rem;
+    padding-right: 0.3rem;
 }
 
 .topnav a {
@@ -58,10 +84,11 @@ li {
 }
 
 .footer-nav-left, .footer-nav-right {
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .botnav a {
     text-decoration: none;
     color: #70757a;
+    font-size: 0.88rem;
 }
