@@ -103,7 +103,7 @@ body {
 }
 
 .search-master {
-    display: block;
+    display: inline-flex;
     border: 1px solid lightgray;
     width: 38rem;
     height: 2.8rem;
