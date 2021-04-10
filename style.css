@@ -26,6 +26,21 @@ body {
     padding-right: 1rem;
 }
 
+#Sign_In {
+    background-color: #1a73e8;
+    margin-left: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-radius: 5px;
+}
+
+#Sign_In a {
+    color: #f2f2f2;
+    padding: 0.5rem;
+}
+
 .botnav {
     margin-bottom: 0;
 }
@@ -103,7 +118,7 @@ body {
 }
 
 .search-master {
-    display: inline-flex;
+    display: block;
     border: 1px solid lightgray;
     width: 38rem;
     height: 2.8rem;
@@ -123,13 +138,15 @@ body {
 }
 
 .reset-button {
-    display: block;
+    display: none;
     border: none;
     background-color: transparent;
 }
 
 .button-container {
     text-align: center;
+    margin-top: 1.5rem;
+    width: auto;
 }
 
 .search {
@@ -138,4 +155,11 @@ body {
     width: 35rem;
     height: 2.8rem;
     background-color: transparent;
+}
+
+.search-button {
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 0.9rem;
+    padding: 0.6rem;
 }
